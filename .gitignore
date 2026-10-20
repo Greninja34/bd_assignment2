@@ -1,0 +1,22 @@
+# pipeline outputs - each VM produces its own, don't commit them
+*_landed.jsonl
+order_metrics.jsonl
+restaurant_summary.csv
+city_summary.csv
+*.tmp
+*._spark_tmp/
+a2-out/
+a2-solo/
+
+# Python / Spark noise
+__pycache__/
+*.pyc
+spark-warehouse/
+metastore_db/
+derby.log
+
+# editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
